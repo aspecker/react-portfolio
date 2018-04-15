@@ -1,20 +1,76 @@
-.pageLink{
-    text-decoration: none;
-    color: #363338
-}
-.pageText{
-    color: #69737A;
-}
+/* Card Style */
 .card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     background-color: #D3D9DE;
     margin-top: 15px;
+    margin-bottom: 40px;
     position: relative;
     width: 70%;
     left: 15%;
+    -webkit-box-shadow: 3px 5px 3px 0px rgba(72, 79, 92,0.75);
+    -moz-box-shadow: 0px 5px 3px 0px rgba(72, 79, 92,0.75);
+    box-shadow: 0px 5px 5px 3px rgba(72, 79, 92,0.75);
+    transition: 0.3s;
+    padding: 10px;
+
+}
+.card:hover{
+    -webkit-box-shadow: 3px 10px 3px 0px rgba(72, 79, 92,0.75);
+    -moz-box-shadow: 3px 10px 3px 0px rgba(72, 79, 92,0.75);
+    box-shadow: 3px 10px 5px 3px rgba(72, 79, 92,0.75);
+    transition: 0.3s;
+    color: #D3D9DE;
 }
 .container{
     padding: 10px 15px 0px 15px;
 }
-/* .projectImage{
+
+/* Card Contents Style */
+.cardLink{
+    text-decoration: none;
+    color: #363338;
+    padding-right: 20px;
+}
+.cardLink:hover{
+    color: #8D999E;
+    /* border-bottom: 1px solid #8D999E; */
+}
+.cardText{
+    color: #69737A;
+}
+.ghIcon:hover{
+    border: 2px groove #D3D9DE;
+}
+/* Positioning Github link on top of project image*/
+.imageDiv{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.projectImage{
+    position:relative;
+    top: 0;
+    left: 0;
+}
+.ghIcon{
     position: absolute;
-} */
+    bottom: 10px;
+    left: 80px;
+    border-radius: 70%;
+}
+
+/* Grid Layouts */
+.projectImage{
+    grid-column-start:1;
+    grid-column-end: 2;
+    padding: 5px;
+}
+.textDiv{
+    grid-column-start:2;
+    grid-column-end: 3;
+}
+.icons{
+    grid-column-start: 3; 
+    grid-column-end: 4;
+}

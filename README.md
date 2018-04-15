@@ -14,18 +14,33 @@
 * add icons for github, linked in, email at the
 
 #### Home
-* text should pop on the hero
-* add skill icons under the hero
+
+* ***TO DO ***
+* add text information div to homepage
+* build skillbar
+    * add skillbar to homepage
 * MOBILE RESPONSIVENESS
+
+* ***DONE ***
 
 
 #### Portfolio
-* create card component for projects
-* design and style cards
-* add image tags to correspond to languages used
+*** TO DO ***
+* add responsiveness
+* further style and layout cards
+* add icons and flesh out project descriptions
+
+* *** DONE ***
+* 
 
 
 #### Contact
+* *** TO DO ***
 * add form class component
 * research formspree
+* connect form to email
+* style form component
+* add logic for form component
+
+* *** DONE ***
 

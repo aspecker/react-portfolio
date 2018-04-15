@@ -3,12 +3,24 @@ import './ProjectCard.css';
 
 const ProjectCard = props =>(
     <div className = 'card'>
-        <img src={props.image} className='projectImage' alt="props.name"/>
+        <div className = 'imageDiv'>
+            <img src={props.image} className='projectImage' alt="props.name"/>
+            <a href={props.github} target="_blank">
+                    <img className='ghIcon'  
+                    src='/assets/images/icons/gh-icon-sm.png' 
+                    alt={props.github}/>
+            </a>
+        </div>
         <div className= 'textDiv'>
-            <h4><a className='pageLink' href={props.url}> {props.name}</a></h4>
-            <p className='pageText'>{props.description}</p>
+            <h2>
+                <a className='cardLink' href={props.url}>{props.name}</a>
+            </h2>
+            <p className='cardText'>{props.description}</p>
+        </div>
+        <div className='icons'>
+            
         </div>
     </div>
 )
 
-export default ProjectCard
+export default ProjectCard;

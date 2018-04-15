@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import projects from '../data/projects.json'
+import projectList from '../data/projects.json'
 import ProjectCard from '../components/ProjectCard'
 import '../components/ProjectCard/ProjectCard.css'
 
 class Portfolio extends Component {
     state = {
-        projects: projects
+        projects: projectList
     };
 
     render () {

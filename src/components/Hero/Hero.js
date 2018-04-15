@@ -3,10 +3,10 @@ import './Hero.css'
 import Granim from 'react-granim'
 
 
-const Hero = props =>(
+const Hero = () =>(
 <div> 
     <div id='granim-canvas' className = 'hero-image'>
-    <Granim id='granim' opacity= {[0.15,0.15]} direction='top-bottom' isPausedwhenNotinView={true}
+    <Granim id='granim' opacity= {[0.15,0.15,0.15]} direction='top-bottom' isPausedwhenNotinView={true}
      image ={{
         blendingMode: 'multiply'
     }}
