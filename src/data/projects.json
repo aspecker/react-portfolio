@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Med Trax",
+        "url": "https://med-trax.herokuapp.com/",
+        "github": "https://github.com/aspecker/OTC-drug-tracker",
+        "image": "/assets/images/placeholder.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Hoth Or Not",
+        "url": "https://hoth-or-not.herokuapp.com/",
+        "github": "https://github.com/aspecker/Hoth-or-not",
+        "image": "/assets/images/placeholder.jpg"
+    },
+    {
+        "id": 3,
+        "name": "It's 5 O'Clock",
+        "url": "https://askyzer.github.io/happy-hour",
+        "github": "https://github.com/aspecker/happy-hour",
+        "image": "/assets/images/placeholder.jpg"
+    },
+    {
+        "id": 4,
+        "name": "NYT Scraper",
+        "url": "https://aspecker.github.io/NYT-crawler/",
+        "github": "https://github.com/aspecker/NYT-crawler",
+        "image": "/assets/images/placeholder.jpg"
+    }
+]

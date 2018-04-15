@@ -1,13 +1,13 @@
    
   .nav ul {
     list-style: none;
-    background-color: #444;
+    background-color: #484F5C;
     text-align: center;
     padding: 0;
     margin: 0;
   }
   .nav li {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
     line-height: 40px;
     height: 40px;
@@ -16,18 +16,18 @@
    
   .nav a {
     text-decoration: none;
-    color: #fff;
+    color: #D3D9DE;
     display: block;
     transition: .3s background-color;
   }
    
   .nav a:hover {
-    background-color: #005f5f;
+    background-color: #363338;
   }
    
   .nav a.active {
-    background-color: #fff;
-    color: #444;
+    background-color: #D3D9DE;
+    color: #363338;
     cursor: default;
   }
    
@@ -56,6 +56,6 @@
         margin: 0 auto;
     }
     .nav {
-        background-color: #444;
+        background-color: #484F5C;
     }
   }

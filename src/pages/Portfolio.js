@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import projects from '../data/projects.json'
 
 class Portfolio extends Component {
     state = {
-        key: 1
+        projects: projects
     };
 
     render () {
         return(
-            <h1> Portfolio </h1>
+            
         )// end of return
     }// end of render
 }
