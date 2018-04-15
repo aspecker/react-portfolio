@@ -7,8 +7,22 @@ class Portfolio extends Component {
     state = {
         projects: projectList
     };
+    sortByTwo = (projects) => projects.reduce((accumulator,project)=>{
+            if (accumulator[accumulator.length-1].length!==2){
+                let sliceArr = accumulator.slice(0,accumulator.length-2)
+                let endArr = accumulator[accumulator.length -1];
+                let addArr = [...endArr,project]
+                return [...sliceArr, addArr]
+            }
+             else{
+                return [...accumulator,[project]] 
+            }
+    }, [] )
+
 
     render () {
+        // let array = this.sortByTwo(projects);
+
         return(
             <div className='container'>
                 {this.state.projects.map(project=>(

@@ -6,8 +6,7 @@
     margin-top: 15px;
     margin-bottom: 40px;
     position: relative;
-    width: 70%;
-    left: 15%;
+    width: 30%;
     -webkit-box-shadow: 3px 5px 3px 0px rgba(72, 79, 92,0.75);
     -moz-box-shadow: 0px 5px 3px 0px rgba(72, 79, 92,0.75);
     box-shadow: 0px 5px 5px 3px rgba(72, 79, 92,0.75);
@@ -24,6 +23,12 @@
 }
 .container{
     padding: 10px 15px 0px 15px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;    
+    width: 1200px;
+    flex-wrap: wrap;
 }
 
 /* Card Contents Style */
