@@ -1,0 +1,20 @@
+.pageLink{
+    text-decoration: none;
+    color: #363338
+}
+.pageText{
+    color: #69737A;
+}
+.card{
+    background-color: #D3D9DE;
+    margin-top: 15px;
+    position: relative;
+    width: 70%;
+    left: 15%;
+}
+.container{
+    padding: 10px 15px 0px 15px;
+}
+/* .projectImage{
+    position: absolute;
+} */
