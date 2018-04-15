@@ -36,11 +36,12 @@
 
 #### Contact
 * *** TO DO ***
-* add form class component
-* research formspree
-* connect form to email
 * style form component
-* add logic for form component
+* style form box
+* add validation to user inputs
 
 * *** DONE ***
+* add form class component
+* connect form to email
+* add logic for form component
 

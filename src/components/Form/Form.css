@@ -1,0 +1,75 @@
+/* STYLE */
+.container{
+    margin: 10px 20px 0px 20px;
+}
+.formBox{
+    padding: 10px;
+    background-color:#B9C2C9;
+    -webkit-box-shadow: 3px 5px 3px 0px rgba(72, 79, 92,0.75);
+    -moz-box-shadow: 0px 5px 3px 0px rgba(72, 79, 92,0.75);
+    box-shadow: 0px 5px 5px 3px rgba(72, 79, 92,0.75); 
+}
+
+textarea{
+    height: 175px;
+    width: 85%;
+}
+.formBox h4{
+    color: #363338;
+    font-size: 1.3em;
+}
+.submitBtn{
+    background-color: #484F5C;
+    color: #D3D9DE;
+}
+
+/* GRIDS */
+/* grid template  */
+/* .nameDiv{
+    grid-area: name;
+
+}
+.emailDiv{
+    grid-area: email;
+
+}
+.msgDiv{
+    grid-area: msg; 
+
+} 
+.submitBtn{
+    grid-area: btn;
+
+}
+.iconDiv{
+    grid-area: icons;
+
+}
+.formBox{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas:
+    'name email msg msg icons icons'
+    'name email msg msg icons icons' 
+    'btn btn msg msg icons icons';
+    grid-gap: 10px;
+
+}  */
+.form{
+    display: grid;
+    justify-content: space-evenly;
+}
+.nameDiv{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.emailDiv{
+    grid-column: 1/2;
+    grid-row: 2/3
+}
+.submitBtn{
+}
+.msgDiv{
+    grid-column: 2/4;
+    grid-row: 1/4;
+}

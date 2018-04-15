@@ -3,14 +3,74 @@ import './Form.css'
 
 class Form extends Component {
     state = {
-        item: 1
+        name: "",
+        _replyto: "",
+        message: "",
+    };
+
+    handleInputChange = event =>{
+        let value = event.target.value;
+        const name = event.target.name;
+        this.setState({
+            [name]: value
+        });
+    };
+
+    handleFormSubmit = event => {
+        this.setState({
+            name: "",
+            _replyto: "",
+            message: ""
+        });
     };
 
     render () {
         return (
-            <h1> FORM </h1>
-        )
-    }
-}
+            <div className = 'container'>
+            <div className = 'formBox'>
+                <form className = 'form' action='https://formspree.io/speckerwebdev@gmail.com' method="POST">
+                <div className='nameDiv'>
+                <h4> Name</h4>
+                <input className='nameInput'
+                    value={this.state.name}
+                    name='name'
+                    onChange = {this.handleInputChange}
+                    type = 'text'
+                    placeholder='e.g. John Smith...'
+                    required
+                />
+                </div>
+                <div className = 'emailDiv'>
+                <h4 className='emailTag'>Email</h4>                
+                <input className='emailInput'
+                    value = {this.state.email}
+                    name='_replyto'
+                    onChange = {this.handleInputChange}
+                    type= 'email'
+                    placeholder='example@email.com'
+                    required
+                />
+                </div>
+                <div className = 'msgDiv'>
+                <h4 className='msgTag'>Message</h4>
+                <textarea className ='msgInput'
+                    value = {this.state.message}
+                    name= 'message'
+                    onChange = {this.handleInputChange}
+                    type = 'text'
+                    placeholder='Message me here...'
+                    required
+               />
+               </div>     
+                <input className='submitBtn' type ='submit' value = 'Send'/>
+                </form>
+                <div className = 'iconDiv'>
+
+                </div>
+            </div>
+            </div>
+        )// end of return
+    } //end of render
+} // end of class
 
 export default Form;

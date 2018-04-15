@@ -3,5 +3,6 @@ body, html {
   padding: 0;
   height: 100%;
   background-color: #69737A;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif !important; */
+  font-family: 'Nunito', sans-serif !important;
 }
