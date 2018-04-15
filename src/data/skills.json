@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "skill": "Node.js",
+        "image": "/assets/images/icons/skill-icons/node.png"
+    },
+    {
+        "id": 2,
+        "skill": "React",
+        "image": "/assets/images/icons/skill-icons/react.png"
+    },
+    {
+        "id": 3,
+        "skill": "ES 2017",
+        "image": "/assets/images/icons/skill-icons/javascript.png"
+    },
+    {
+        "id": 4,
+        "skill": "MySQL",
+        "image": "/assets/images/icons/skill-icons/mysql.png"
+    },
+    {
+        "id": 5,
+        "skill": "HTML 5",
+        "image": "/assets/images/icons/skill-icons/html.png"
+    },
+    {
+        "id": 6,
+        "skill": "CSS 3",
+        "image": "/assets/images/icons/skill-icons/css.png"
+    },
+    {
+        "id": 7,
+        "skill": "jQuery",
+        "image": "/assets/images/icons/skill-icons/jquery.png"
+    },
+    {
+        "id": 8,
+        "skill": "Redux",
+        "image": "/assets/images/icons/skill-icons/redux.png"
+    }
+]

@@ -1,0 +1,27 @@
+.skillDiv{
+    padding-top: 20px;
+}
+.skillImg{
+    padding: 0px 5px;
+}
+.skillImg:hover{
+    box-shadow: 2px 4px rgba(72, 79, 92,0.75);
+    border: 1px outset rgba(72, 79, 92,0.75);
+    border-radius: 25%;
+}
+/* phones */
+@media only screen and (max-width: 480px){
+    .skillImg{
+        max-width: 48px;
+        max-height: 48px;
+    }
+}
+/* tablets */
+@media only screen and (max-width: 768px){
+
+}
+/* medium screens */
+@media only screen and (max-width: 992px){
+
+
+}

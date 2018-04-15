@@ -30,7 +30,7 @@ class Form extends Component {
             <div className = 'formBox'>
                 <form className = 'form' action='https://formspree.io/speckerwebdev@gmail.com' method="POST">
                 <div className='nameDiv'>
-                <h4> Name</h4>
+                <p className ='nameTag'> Name</p>
                 <input className='nameInput'
                     value={this.state.name}
                     name='name'
@@ -41,7 +41,7 @@ class Form extends Component {
                 />
                 </div>
                 <div className = 'emailDiv'>
-                <h4 className='emailTag'>Email</h4>                
+                <p className='emailTag'>Email</p>                
                 <input className='emailInput'
                     value = {this.state.email}
                     name='_replyto'
@@ -52,7 +52,7 @@ class Form extends Component {
                 />
                 </div>
                 <div className = 'msgDiv'>
-                <h4 className='msgTag'>Message</h4>
+                <p className='msgTag'>Message</p>
                 <textarea className ='msgInput'
                     value = {this.state.message}
                     name= 'message'

@@ -43,15 +43,15 @@ h1{
 
 }
 /* phones */
-@media only screen and (min-width: 480px){
+@media only screen and (max-width: 480px){
 
 }
 /* tablets */
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
 
 }
 /* medium screens */
-@media only screen and (min-width: 992px){
+@media only screen and (max-width: 992px){
 
 
 }

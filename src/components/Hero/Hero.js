@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css'
 import Granim from 'react-granim'
+import Skillbar from '../Skillbar';
 
 
 const Hero = () =>(
@@ -21,9 +22,10 @@ const Hero = () =>(
         }
     }}/>
         <div className = 'inner-content'>
-            <h1> Adam Specker </h1>
+            {/* <h1> Adam Specker </h1>
             <h3> Full Stack Web Developer</h3>
-            <p id='summary'> Research-oriented programmer with a background in healthcare and education. Embracing new technologies </p>
+            <p id='summary'> Research-oriented programmer with a background in healthcare and education. Embracing new technologies </p> */}
+            <Skillbar/>
                 <img id='adamPic' src='/assets/images/adam-cropped.png' alt ='Adam Specker'/>
         </div>
     </div>

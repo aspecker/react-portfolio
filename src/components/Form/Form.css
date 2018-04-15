@@ -14,7 +14,7 @@ textarea{
     height: 175px;
     width: 85%;
 }
-.formBox h4{
+.formBox p{
     color: #363338;
     font-size: 1.3em;
 }
@@ -24,37 +24,6 @@ textarea{
 }
 
 /* GRIDS */
-/* grid template  */
-/* .nameDiv{
-    grid-area: name;
-
-}
-.emailDiv{
-    grid-area: email;
-
-}
-.msgDiv{
-    grid-area: msg; 
-
-} 
-.submitBtn{
-    grid-area: btn;
-
-}
-.iconDiv{
-    grid-area: icons;
-
-}
-.formBox{
-    display: grid;
-    justify-content: space-evenly;
-    grid-template-areas:
-    'name email msg msg icons icons'
-    'name email msg msg icons icons' 
-    'btn btn msg msg icons icons';
-    grid-gap: 10px;
-
-}  */
 .form{
     display: grid;
     justify-content: space-evenly;
@@ -73,3 +42,19 @@ textarea{
     grid-column: 2/4;
     grid-row: 1/4;
 }
+/* .nameTag{
+    grid-column: 1/2;
+    grid-row: 1/2
+}
+.emailTag{
+    grid-column: 1/2;
+    grid-row: 2/3
+}
+.nameInput{
+    grid-column: 2/3;
+    grid-row: 1;
+}
+.emailInput{
+    grid-column: 2/3;
+    grid-row: 2;
+} */
