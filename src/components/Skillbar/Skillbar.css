@@ -3,6 +3,8 @@
 }
 .skillImg{
     padding: 0px 5px;
+    max-width: 100%;
+    height: auto;
 }
 .skillImg:hover{
     box-shadow: 2px 4px rgba(72, 79, 92,0.75);

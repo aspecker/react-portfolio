@@ -17,11 +17,11 @@
 
 * ***TO DO ***
 * add text information div to homepage
-* build skillbar
-    * add skillbar to homepage
-* MOBILE RESPONSIVENESS
+* add mobile responsiveness to icons and portrait
 
 * ***DONE ***
+* build skillbar
+    * add skillbar to homepage
 
 
 #### Portfolio
@@ -36,12 +36,13 @@
 
 #### Contact
 * *** TO DO ***
-* style form component
-* style form box
-* add validation to user inputs
+
 
 * *** DONE ***
 * add form class component
 * connect form to email
 * add logic for form component
+* style form component
+* style form box
+* add validation to user inputs
 

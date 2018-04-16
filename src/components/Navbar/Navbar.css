@@ -1,4 +1,6 @@
-   
+   .nav{
+     width: 100%;
+   }
   .nav ul {
     list-style: none;
     background-color: #484F5C;

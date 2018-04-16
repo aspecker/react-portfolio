@@ -13,7 +13,7 @@ const ProjectCard = props =>(
         </div>
         <div className= 'textDiv'>
             <h2>
-                <a className='cardLink' href={props.url}>{props.name}</a>
+                <a className='cardLink' target="blank" href={props.url}>{props.name}</a>
             </h2>
             <p className='cardText'>{props.description}</p>
         </div>

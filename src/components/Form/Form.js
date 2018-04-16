@@ -29,7 +29,6 @@ class Form extends Component {
             <div className = 'container'>
             <div className = 'formBox'>
                 <form className = 'form' action='https://formspree.io/speckerwebdev@gmail.com' method="POST">
-                <div className='nameDiv'>
                 <p className ='nameTag'> Name</p>
                 <input className='nameInput'
                     value={this.state.name}
@@ -39,8 +38,6 @@ class Form extends Component {
                     placeholder='e.g. John Smith...'
                     required
                 />
-                </div>
-                <div className = 'emailDiv'>
                 <p className='emailTag'>Email</p>                
                 <input className='emailInput'
                     value = {this.state.email}
@@ -50,8 +47,6 @@ class Form extends Component {
                     placeholder='example@email.com'
                     required
                 />
-                </div>
-                <div className = 'msgDiv'>
                 <p className='msgTag'>Message</p>
                 <textarea className ='msgInput'
                     value = {this.state.message}
@@ -61,13 +56,15 @@ class Form extends Component {
                     placeholder='Message me here...'
                     required
                />
-               </div>     
                 <input className='submitBtn' type ='submit' value = 'Send'/>
-                </form>
-                <div className = 'iconDiv'>
-
+                <div className = 'aboutDiv'>
+                    <h1>Adam Specker</h1>
+                    <h3>Full Stack Web Developer</h3>
+                    <p></p>
                 </div>
+                </form>
             </div>
+
             </div>
         )// end of return
     } //end of render

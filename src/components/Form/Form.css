@@ -3,7 +3,8 @@
     margin: 10px 20px 0px 20px;
 }
 .formBox{
-    padding: 10px;
+    padding: 20px 10px 10px 10px;
+    width: 80%;
     background-color:#B9C2C9;
     -webkit-box-shadow: 3px 5px 3px 0px rgba(72, 79, 92,0.75);
     -moz-box-shadow: 0px 5px 3px 0px rgba(72, 79, 92,0.75);
@@ -14,47 +15,71 @@ textarea{
     height: 175px;
     width: 85%;
 }
-.formBox p{
+.formBox{
     color: #363338;
-    font-size: 1.3em;
 }
 .submitBtn{
     background-color: #484F5C;
     color: #D3D9DE;
 }
+.emailInput , .nameInput{
+    max-height: 30px;
+}
+.emailInput, .nameInput, .msgInput {
+    margin-top: 20px;
+}
+.nameTag, .emailTag, .msgTag {
+    font-size: 1.4em;
+    padding-left: 10px;
+}
+.aboutDiv{
+    font-size: 1em !important;
+}
+.submitBtn{
+    margin: 15px 0px 15px 0px;
+}
+
 
 /* GRIDS */
+/* form box grid */
 .form{
     display: grid;
     justify-content: space-evenly;
+    /* align-content: start; */
 }
-.nameDiv{
+.nameTag{
     grid-column: 1/2;
-    grid-row: 1/2;
-}
-.emailDiv{
-    grid-column: 1/2;
-    grid-row: 2/3
-}
-.submitBtn{
-}
-.msgDiv{
-    grid-column: 2/4;
-    grid-row: 1/4;
-}
-/* .nameTag{
-    grid-column: 1/2;
-    grid-row: 1/2
-}
-.emailTag{
-    grid-column: 1/2;
-    grid-row: 2/3
+    grid-row: 1;
 }
 .nameInput{
     grid-column: 2/3;
-    grid-row: 1;
+    grid-row: 1/2;
+
+}
+.emailTag{
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 .emailInput{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.msgTag{
+    grid-column: 1/2;
+    grid-row: 4/5;
+
+}
+.msgInput{
+    grid-column: 2/5;
+    grid-row: 4/5;
+}
+.aboutDiv{
+    grid-column: 5/6;
+    grid-row: 1/3;
+}
+.submitBtn{
     grid-column: 2/3;
-    grid-row: 2;
-} */
+    grid-row: 5/6;
+}
+
+/* page layout grid */
