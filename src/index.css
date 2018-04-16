@@ -2,7 +2,7 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: #69737A;
+  background-image: url('/assets/images/sayagata.png');
   /* font-family: 'Open Sans', sans-serif !important; */
   font-family: 'Nunito', sans-serif !important;
 }

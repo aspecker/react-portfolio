@@ -29,6 +29,7 @@ const Navbar = props =>(
             }> Contact</Link>
         </li>
       </ul>
+      
     </nav>
   </header>
 )

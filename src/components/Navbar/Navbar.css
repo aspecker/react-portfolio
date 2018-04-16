@@ -1,5 +1,6 @@
    .nav{
      width: 100%;
+     border-bottom: 1px solid #69737A;
    }
   .nav ul {
     list-style: none;
@@ -9,21 +10,20 @@
     margin: 0;
   }
   .nav li {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-size: 1.2em;
     line-height: 40px;
-    height: 40px;
+    height: 48px;
     border-bottom: 1px solid #888;
+    /* padding: 0px 10px; */
   }
-  .nav{
-    border-bottom: 1px solid #69737A;
-  }
-   
+
   .nav a {
     text-decoration: none;
     color: #D3D9DE;
     display: block;
     transition: .3s background-color;
+    padding: 0px 10px;
   }
    
   .nav a:hover {

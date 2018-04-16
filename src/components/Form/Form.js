@@ -60,7 +60,7 @@ class Form extends Component {
                 <div className = 'aboutDiv'>
                     <h1>Adam Specker</h1>
                     <h3>Full Stack Web Developer</h3>
-                    <p></p>
+                    <p>Washington DC developer </p>
                 </div>
                 </form>
             </div>
