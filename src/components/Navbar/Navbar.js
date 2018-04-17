@@ -6,6 +6,7 @@ const Navbar = props =>(
     <header>
     <nav className="nav">
       <ul>
+      
         <li className="home">
             <Link to = '/' 
             className= {
