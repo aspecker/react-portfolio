@@ -26,7 +26,7 @@ const Hero = () =>(
             <h3> Full Stack Web Developer</h3>
             <p id='summary'> Research-oriented programmer with a background in healthcare and education. Embracing new technologies </p> */}
             <Skillbar/>
-                <img id='adamPic' src='/assets/images/adam-cropped.png' alt ='Adam Specker'/>
+                <img id='adamPic' src='/assets/images/adam-cropped.PNG' alt ='Adam Specker'/>
         </div>
     </div>
 </div>
