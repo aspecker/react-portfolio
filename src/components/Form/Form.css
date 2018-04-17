@@ -9,10 +9,14 @@
     -webkit-box-shadow: 3px 5px 3px 0px rgba(72, 79, 92,0.75);
     -moz-box-shadow: 0px 5px 3px 0px rgba(72, 79, 92,0.75);
     box-shadow: 0px 5px 5px 3px rgba(72, 79, 92,0.75); 
+    background-image: url('/assets/images/hero-img.jpg');
+    background-position: center;
+    background-size: cover;
+
 }
 
 textarea{
-    height: 175px;
+    height: 125px;
     width: 85%;
 }
 .formBox{
@@ -27,27 +31,48 @@ textarea{
     max-height: 30px;
 }
 .emailInput, .nameInput, .msgInput {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .nameTag, .emailTag, .msgTag {
     font-size: 1.4em;
-    padding-left: 10px;
+    padding: 5px;
+    background-color: #B9C2C9;
+    border: 1px outset #484F5C;
+    max-height: 30px;
+    -webkit-box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75);
+    -moz-box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75);
+    box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75); 
+    
 }
 .aboutDiv{
     font-size: 1em !important;
     margin: 10px;
-    background-color: #D3D9DE;
+    background-color: #B9C2C9;
     padding: 10px;
     border: 2px outset #484F5C;
     -webkit-box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75);
     -moz-box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75);
     box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75); 
-    max-width: 45%;
-    min-width: 25%;
+    width: 350px;
 }
 
+
 .submitBtn{
+    padding: 5px;
+    color: #484F5C;
     margin: 15px 0px 15px 0px;
+    background-color: #B9C2C9;
+    border: 1px outset #484F5C;
+    max-height: 30px;
+    -webkit-box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75);
+    -moz-box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75);
+    box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75); 
+}
+.submitBtn:hover{
+    background-color: #D3D9DE;
+    -webkit-box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75);
+    -moz-box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75);
+    box-shadow: 1px 2px 2px 0px rgba(72, 79, 92,0.75); 
 }
 .iconDiv{
     width: 100%;
@@ -62,7 +87,7 @@ textarea{
 /* form box grid */
 .form{
     display: grid;
-    grid-gap: 5%;
+    grid-row-gap: 0px;
     justify-content: space-evenly;
     /* align-content: start; */
 }

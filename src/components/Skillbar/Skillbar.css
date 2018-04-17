@@ -10,8 +10,9 @@
 .skillImg:hover{
     box-shadow: 2px 4px rgba(72, 79, 92,0.75);
     border: 1px outset rgba(72, 79, 92,0.75);
-    border-radius: 25%;
+    border-radius: 40%;
 }
+
 
 /* phones */
 @media only screen and (max-width: 480px){
