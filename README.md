@@ -9,40 +9,10 @@
 * color palette used
 ``` https://www.design-seeds.com/slow-lifestyle/galvanized-grays/ ```
 
-#### Navbar
-* adjust positioning of links to float them left
-* add icons for github, linked in, email at the
+Built using React and only CSS. Granim library used for gradient effect.
 
-#### Home
+TO DO
+* adapt page for more mobile breakpoints
+* add elements for more dynamic user experience
 
-* ***TO DO ***
-* add text information div to homepage
-* add mobile responsiveness to icons and portrait
-
-* ***DONE ***
-* build skillbar
-    * add skillbar to homepage
-
-
-#### Portfolio
-*** TO DO ***
-* add responsiveness
-* further style and layout cards
-* add icons and flesh out project descriptions
-
-* *** DONE ***
-* 
-
-
-#### Contact
-* *** TO DO ***
-
-
-* *** DONE ***
-* add form class component
-* connect form to email
-* add logic for form component
-* style form component
-* style form box
-* add validation to user inputs
 
