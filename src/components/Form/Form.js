@@ -59,8 +59,13 @@ class Form extends Component {
                 <input className='submitBtn' type ='submit' value = 'Send'/>
                 <div className = 'aboutDiv'>
                     <h1>Adam Specker</h1>
-                    <h3>Full Stack Web Developer</h3>
-                    <p>Washington DC developer </p>
+                    <h3>Full Stack Web Developer. </h3>
+                    <p>Building applications with MERN stack. Embracing new technologies. Passionate about healthcare, functional programming, and the outdoors. </p>
+                    <div className='iconDiv'>
+                        <a href='mailto:speckerwebdev@gmail.com'><img src='/assets/images/icons/gmail.png' alt='Gmail' className='contactImg'/></a>
+                        <a href='https://github.com/aspecker'><img src='/assets/images/icons/gh-lg.png' alt='Github' className='contactImg'/></a>
+                        <a href='https://www.linkedin.com/in/aspecker/'><img src='/assets/images/icons/linkedin.png' alt= 'LinkedIn' className='contactImg'/></a>
+                    </div>
                 </div>
                 </form>
             </div>

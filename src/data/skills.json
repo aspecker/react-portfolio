@@ -2,41 +2,49 @@
     {
         "id": 1,
         "skill": "Node.js",
-        "image": "/assets/images/icons/skill-icons/node.png"
+        "image": "/assets/images/icons/skill-icons/node.png",
+        "url": "https://nodejs.org/en/"
     },
     {
         "id": 2,
         "skill": "React",
-        "image": "/assets/images/icons/skill-icons/react.png"
+        "image": "/assets/images/icons/skill-icons/react.png",
+        "url": "https://reactjs.org/"
     },
     {
         "id": 3,
         "skill": "ES 2017",
-        "image": "/assets/images/icons/skill-icons/javascript.png"
+        "image": "/assets/images/icons/skill-icons/javascript.png",
+        "url": "https://www.ecma-international.org/publications/standards/Ecma-262.htm"
     },
     {
         "id": 4,
         "skill": "MySQL",
-        "image": "/assets/images/icons/skill-icons/mysql.png"
+        "image": "/assets/images/icons/skill-icons/mysql.png",
+        "url": "https://www.mysql.com/"
     },
     {
         "id": 5,
         "skill": "HTML 5",
-        "image": "/assets/images/icons/skill-icons/html.png"
+        "image": "/assets/images/icons/skill-icons/html.png",
+        "url": "https://www.w3.org/TR/html52/"
     },
     {
         "id": 6,
         "skill": "CSS 3",
-        "image": "/assets/images/icons/skill-icons/css.png"
+        "image": "/assets/images/icons/skill-icons/css.png",
+        "url": "https://www.w3.org/Style/CSS/Overview.en.html"
     },
     {
         "id": 7,
         "skill": "jQuery",
-        "image": "/assets/images/icons/skill-icons/jquery.png"
+        "image": "/assets/images/icons/skill-icons/jquery.png",
+        "url": "https://jquery.com/"
     },
     {
         "id": 8,
         "skill": "Redux",
-        "image": "/assets/images/icons/skill-icons/redux.png"
+        "image": "/assets/images/icons/skill-icons/redux.png",
+        "url": "https://redux.js.org/"
     }
 ]

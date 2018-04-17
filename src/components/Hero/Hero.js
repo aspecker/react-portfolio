@@ -18,7 +18,7 @@ const Hero = () =>(
                 ['#80d3fe', '#7ea0c4'],
                 ['#f0ab51', '#eceba3']              
                 ],
-                transitionSpeed: 2000
+                transitionSpeed: 1750
         }
     }}/>
         <div className = 'inner-content'>

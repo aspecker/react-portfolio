@@ -4,7 +4,7 @@
         "name": "Med Trax",
         "url": "https://med-trax.herokuapp.com/",
         "github": "https://github.com/aspecker/OTC-drug-tracker",
-        "image": "https://78.media.tumblr.com/avatar_3281e3517282_128.pnj",
+        "image": "/assets/images/port-img/mex-trax.png",
         "description": "Medicine tracker built with MySQL, Expresss, Node, and Handlebars"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Hoth Or Not",
         "url": "https://hoth-or-not.herokuapp.com/",
         "github": "https://github.com/aspecker/Hoth-or-not",
-        "image": "https://78.media.tumblr.com/avatar_3281e3517282_128.pnj",
+        "image": "/assets/images/port-img/HnN-1.jpg",
         "description": "Star Wars fan site built with Express, Node, jQuery, Materialize"
     },
     {
@@ -20,39 +20,23 @@
         "name": "It's 5 O'Clock",
         "url": "https://askyzer.github.io/happy-hour",
         "github": "https://github.com/aspecker/happy-hour",
-        "image": "https://78.media.tumblr.com/avatar_3281e3517282_128.pnj",
+        "image": "/assets/images/port-img/five-oclock.png",
         "description": "Proof of Concept built with jQuery, AnimateCSS Javascript and Mapbox"
     },
     {
         "id": 4,
-        "name": "LIRI",
-        "url": "https://github.com/aspecker/liri-node-app",
-        "github": "https://github.com/aspecker/liri-node-app",
-        "image": "https://78.media.tumblr.com/avatar_3281e3517282_128.pnj",
-        "description": "Twitter and Spotify search CL app using Node, Express and Inquirer"
-    },
-    {
-        "id": 5,
-        "name": "Inventory Manager",
-        "url": "https://github.com/aspecker/bamazon",
-        "github": "https://github.com/aspecker/bamazon",
-        "image": "https://78.media.tumblr.com/avatar_3281e3517282_128.pnj",
-        "description": "Supply management CL app using Node, MySQL and Inquirer"
-    },
-    {
-        "id": 6,
         "name": "Toon Gifs",
         "url": "https://aspecker.github.io/giphy-api/",
         "github": "https://github.com/aspecker/happy-hour",
-        "image": "https://78.media.tumblr.com/avatar_3281e3517282_128.pnj",
+        "image": "/assets/images/port-img/giphy.png",
         "description": "Gif generator built with AJAX, GIPHY API, and jQuery"
     },
     {
-        "id": 7,
+        "id": 5,
         "name": "NYT Scraper",
         "url": "https://aspecker.github.io/NYT-crawler/",
         "github": "https://github.com/aspecker/NYT-crawler",
-        "image": "https://78.media.tumblr.com/avatar_3281e3517282_128.pnj",
+        "image": "/assets/images/port-img/nyt.png",
         "description": "Web Scraper built with AJAX, NYT API, "
     }
 ]

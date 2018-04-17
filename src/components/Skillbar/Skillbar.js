@@ -11,12 +11,12 @@ class Skillbar extends Component {
         return(
             <div className = 'skillDiv'>
                 {this.state.skills.map(skill=>(
-                    <img 
+                    <a href={skill.url} key={skill.id} ><img 
                     src={skill.image} 
                     alt={skill.skill}
                     key={skill.id}
                     className = 'skillImg'
-                    />
+                    /></a>
                 ))}
             </div>
         )// end of return

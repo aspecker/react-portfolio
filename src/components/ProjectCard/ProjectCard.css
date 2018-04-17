@@ -12,6 +12,7 @@
     transition: 0.3s;
     padding: 10px;
     margin: 10px 10px;
+    min-width: 400px;
 }
 .card:hover{
     -webkit-box-shadow: 3px 10px 3px 0px rgba(72, 79, 92,0.75);
@@ -26,8 +27,7 @@
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;    
-    /* width: 1200px; */
-    max-width: 90%;
+    width: 80%vw;
     flex-wrap: wrap;
 }
 
@@ -57,11 +57,16 @@
     position: relative;
     top: 0;
     left: 0;
+    margin: 5px;
 }
 .projectImage{
     position:relative;
     top: 0;
     left: 0;
+    max-width: 128px;
+    max-height: auto;
+    border-radius: 15%;
+    /* width: 90% */
 }
 .ghIcon{
     position: absolute;
