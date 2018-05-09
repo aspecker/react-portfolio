@@ -21,7 +21,7 @@
         "url": "https://hoth-or-not.herokuapp.com/",
         "github": "https://github.com/aspecker/Hoth-or-not",
         "image": "/assets/images/port-img/HnN-1.jpg",
-        "description": "Star Wars fan site built with Express, Node, jQuery, Materialize"
+        "description": "Star Wars fan site built with Express, Node, jQuery, and Firebase"
     },
 
     {
