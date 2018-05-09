@@ -1,6 +1,14 @@
 [
     {
         "id": 1,
+        "name": "It's 5 O'Clock",
+        "url": "https://dc-5-o-clock.herokuapp.com/",
+        "github": "https://github.com/aspecker/5oclock-dc",
+        "image": "/assets/images/port-img/five-oclock.png",
+        "description": "Happy Hour Selection tool built with React, MongoDB, Node and Express"
+    },
+    {
+        "id": 2,
         "name": "Med Trax",
         "url": "https://med-trax.herokuapp.com/",
         "github": "https://github.com/aspecker/OTC-drug-tracker",
@@ -8,21 +16,14 @@
         "description": "Medicine tracker built with MySQL, Expresss, Node, and Handlebars"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Hoth Or Not",
         "url": "https://hoth-or-not.herokuapp.com/",
         "github": "https://github.com/aspecker/Hoth-or-not",
         "image": "/assets/images/port-img/HnN-1.jpg",
         "description": "Star Wars fan site built with Express, Node, jQuery, Materialize"
     },
-    {
-        "id": 3,
-        "name": "It's 5 O'Clock",
-        "url": "https://askyzer.github.io/happy-hour",
-        "github": "https://github.com/aspecker/happy-hour",
-        "image": "/assets/images/port-img/five-oclock.png",
-        "description": "Proof of Concept built with jQuery, AnimateCSS Javascript and Mapbox"
-    },
+
     {
         "id": 4,
         "name": "Toon Gifs",

@@ -4,7 +4,7 @@ import './ProjectCard.css';
 const ProjectCard = props =>(
     <div className = 'card'>
         <div className = 'imageDiv'>
-            <img src={props.image} className='projectImage' alt="props.name"/>
+            <a href={props.url}><img src={props.image} className='projectImage' alt="props.name"/></a>
             <a href={props.github} target="_blank">
                     <img className='ghIcon'  
                     src='/assets/images/icons/gh-icon-sm.png' 
